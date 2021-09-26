@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.webgl{
+    position: absolute;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+#form{
+position: absolute;
+min-width: 60vw;
+width: 60vw;
+height: 50px;
+background-color: rgb(20, 20, 20);
+margin-top: 10vh;
+margin-bottom: 10vh;
+margin-left: 20vw;
+margin-right: 20vw;
+border-radius: 40px;
+z-index: 3;
+}
+
+#text{
+    margin: auto;
+    position: relative;
+    width: 80%;
+    height: 100%;
+    border-radius: 40px;
+    background-color: rgb(20, 20, 20);
+    border: none;
+    outline: none;
+    font-size: 24px;
+    caret-color: #ffff3f;
+    text-indent: 5%;
+    color: aliceblue;
+}
+
+#submit{
+    position: relative;
+    margin: auto;
+    margin-right: 5%;
+    margin-top: 2vh;
+    font-size: 100%;
+    float: right;
+    cursor: pointer;
+    color: #ffff3f;
+    background: none;
+    border: none;
+}
+
+html, body{
+    overflow: hidden;
+}
+
+/*# sourceMappingURL=main.css.map*/
